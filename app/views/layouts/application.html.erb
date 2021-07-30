@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>MemoApp</title>
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+  <body>
+    <header>
+      <div class="header-inner">
+        <div class="header-title">
+          <%= link_to "memo-app", root_path, class:"header-home" %>
+          <%= link_to "新規投稿", new_post_path, class:"test" %>
+        </div>
+      </div>
+    </header>
+    <%= yield %>
+    <footer>
+      <div class="footer-inner">
+        <p>Copyright nagaoka.K 2021</p>
+      </div>
+    </footer>
+  </body>
+</html>

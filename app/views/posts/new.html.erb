@@ -1,0 +1,12 @@
+<div class="main-visual">
+  <div class="content">
+    <h1>新規投稿ページ</h1>
+    <div class="content-box">
+      <%= form_with model:@post, class:"form",local:true do |form| %>
+        <div class="content-box_text">＊空のコメントは投稿できません</div>
+        <%= form.text_field :content, class:"form-content",placeholder: :コメントを入れて下さい %>
+        <%= form.submit '投稿する' %>
+      <% end %>
+    </div>
+  </div>
+</div>
