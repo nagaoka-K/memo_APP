@@ -1,6 +1,9 @@
 # URL
 https://fast-earth-19408.herokuapp.com/
+
 herokuにて公開しています。
+
+スマホ、タブレット等、レスポンシブデザインに対応していません。
 
 # Name memo_APP
 コメント投稿できる簡易アプリです。
