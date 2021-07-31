@@ -1,24 +1,14 @@
-# README
+# URL
+https://fast-earth-19408.herokuapp.com/
+herokuにて公開しています。
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# Name memo_APP
+コメント投稿できる簡易アプリです。
 
-Things you may want to cover:
+# DEMO
+ヘッダーの新規投稿から、新規投稿ページへ移動して
+コメントを投稿してください。
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+# Note
+rails 5.2.3
+ruby 2.6.6
